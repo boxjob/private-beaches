@@ -22,7 +22,7 @@ const Menubar = () => {
                     ? 'ease-out duration-500 bg-black/80 text-gray-300 w-full h-screen fixed left-0 top-0 z-10' 
                     : 'fixed top-0 left-[-120%] w-full h-screen ease-in-out duration-700 z-10' 
                 }>
-                <ul className="flex flex-col justify-center items-center w-full h-screen">
+                <ul className="flex flex-col justify-center items-center w-full h-screen scroll-auto">
                     <li className="font-bold text-3xl p-8">Home</li>
                     <li className="font-bold text-3xl p-8">Destinations</li>
                     <li className="font-bold text-3xl p-8">Reservations</li>
