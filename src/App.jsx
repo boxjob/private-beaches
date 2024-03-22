@@ -2,6 +2,7 @@ import Banner from "./components/Banner"
 import Menubar from "./components/Menubar"
 import Offers from "./components/Offers"
 import Plan from "./components/Plan"
+import Rooms from "./components/Rooms"
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Banner/>
       <Offers/>
       <Plan/>
+      <Rooms/>
     </>
   )
 }
