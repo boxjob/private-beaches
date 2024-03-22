@@ -1,6 +1,7 @@
 import Banner from "./components/Banner"
 import Menubar from "./components/Menubar"
 import Offers from "./components/Offers"
+import Plan from "./components/Plan"
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
       <Menubar/>
       <Banner/>
       <Offers/>
+      <Plan/>
     </>
   )
 }
