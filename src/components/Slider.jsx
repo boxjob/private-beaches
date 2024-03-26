@@ -43,8 +43,8 @@ const Slider = () => {
   }
 
   return (
-      <div className='ma-w-[1400px] h-[580px] w-full m-auto py-16 px-4 relative'>
-          <div className='w-full h-full rounded-xl bg-cover duration-500' style={{ backgroundImage: `url(${ slides[currentIndex].url })`}}></div>
+      <div className='max-w-[1400px] h-[580px] w-full m-auto py-16 px-4 relative'>
+          <div className='w-full h-full rounded-xl bg-cover duration-700' style={{ backgroundImage: `url(${ slides[currentIndex].url })`}}></div>
           <span className='absolute duration-300 top-[50%] -translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer hover:bg-black/50 left-5'><BsChevronCompactLeft size={30} onClick={nextSlide} /></span>
           <span className='absolute duration-300 top-[50%] -translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer hover:bg-black/50 right-5'><BsChevronCompactRight size={30} onClick={prevSlide} /></span>
 
