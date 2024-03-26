@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 import Menubar from "./components/Menubar"
 import Offers from "./components/Offers"
 import Plan from "./components/Plan"
@@ -16,6 +17,7 @@ function App() {
       <Plan/>
       <Rooms/>
       <Slider/>
+      <Footer/>
     </>
   )
 }
